@@ -1,0 +1,151 @@
+##STARTING Version 1.0
+2023年 10月 31日 星期二 00:22:19 CST
+##CFlags: -I. -O0 
+##CPPFlags: -std=c++14 -I. -O0 
+./loop_induction 
+
+test                    description   absolute   operations   ratio with
+number                                time       per second   test0
+
+ 0 "int32_t for induction copy opt"   1.64 sec   488.49 M     1.00
+ 1    "int32_t for induction copy1"   1.61 sec   497.44 M     0.98
+ 2    "int32_t for induction copy2"   2.89 sec   277.21 M     1.76
+ 3    "int32_t for induction copy3"   1.82 sec   440.33 M     1.11
+ 4    "int32_t for induction copy4"   1.73 sec   462.26 M     1.06
+ 5    "int32_t for induction copy5"   1.76 sec   455.23 M     1.07
+ 6    "int32_t for induction copy6"   1.69 sec   474.10 M     1.03
+ 7    "int32_t for induction copy7"   2.24 sec   357.53 M     1.37
+ 8    "int32_t for induction copy8"   1.78 sec   449.95 M     1.09
+ 9    "int32_t for induction copy9"   1.80 sec   445.68 M     1.10
+10   "int32_t for induction copy10"   1.76 sec   455.04 M     1.07
+11   "int32_t for induction copy11"   1.90 sec   420.45 M     1.16
+12   "int32_t for induction copy12"   1.84 sec   433.90 M     1.13
+13   "int32_t for induction copy13"   1.82 sec   439.45 M     1.11
+14   "int32_t for induction copy14"   1.79 sec   447.79 M     1.09
+15   "int32_t for induction copy15"   1.86 sec   429.99 M     1.14
+16   "int32_t for induction copy16"   2.07 sec   386.51 M     1.26
+17   "int32_t for induction copy17"   1.94 sec   413.10 M     1.18
+18   "int32_t for induction copy18"   1.88 sec   424.95 M     1.15
+
+Total absolute time for for loop induction copy: 35.80 sec
+
+test                      description   absolute   operations   ratio with
+number                                  time       per second   test0
+
+ 0 "int32_t while induction copy opt"   1.64 sec   488.45 M     1.00
+ 1    "int32_t while induction copy1"   1.80 sec   443.73 M     1.10
+ 2    "int32_t while induction copy2"   2.31 sec   346.55 M     1.41
+ 3    "int32_t while induction copy3"   1.82 sec   440.30 M     1.11
+ 4    "int32_t while induction copy4"   1.73 sec   462.13 M     1.06
+ 5    "int32_t while induction copy5"   1.76 sec   455.02 M     1.07
+ 6    "int32_t while induction copy6"   1.72 sec   465.67 M     1.05
+ 7    "int32_t while induction copy7"   2.17 sec   369.38 M     1.32
+ 8    "int32_t while induction copy8"   1.78 sec   449.98 M     1.09
+ 9    "int32_t while induction copy9"   1.70 sec   469.94 M     1.04
+10   "int32_t while induction copy10"   1.77 sec   452.44 M     1.08
+11   "int32_t while induction copy11"   1.88 sec   426.46 M     1.15
+12   "int32_t while induction copy12"   1.85 sec   431.89 M     1.13
+13   "int32_t while induction copy13"   1.83 sec   437.32 M     1.12
+14   "int32_t while induction copy14"   1.79 sec   447.85 M     1.09
+15   "int32_t while induction copy15"   1.86 sec   429.75 M     1.14
+16   "int32_t while induction copy16"   2.07 sec   386.67 M     1.26
+17   "int32_t while induction copy17"   1.99 sec   401.91 M     1.22
+18   "int32_t while induction copy18"   1.88 sec   425.31 M     1.15
+
+Total absolute time for while loop induction copy: 35.33 sec
+
+test                   description   absolute   operations   ratio with
+number                               time       per second   test0
+
+ 0 "int32_t do induction copy opt"   1.62 sec   495.24 M     1.00
+ 1    "int32_t do induction copy1"   1.75 sec   457.91 M     1.08
+ 2    "int32_t do induction copy2"   2.87 sec   278.83 M     1.78
+ 3    "int32_t do induction copy3"   1.82 sec   439.96 M     1.13
+ 4    "int32_t do induction copy4"   1.74 sec   459.69 M     1.08
+ 5    "int32_t do induction copy5"   1.77 sec   452.44 M     1.09
+ 6    "int32_t do induction copy6"   1.66 sec   483.30 M     1.02
+ 7    "int32_t do induction copy7"   2.05 sec   390.79 M     1.27
+ 8    "int32_t do induction copy8"   1.79 sec   446.81 M     1.11
+ 9    "int32_t do induction copy9"   1.79 sec   445.93 M     1.11
+10   "int32_t do induction copy10"   1.77 sec   452.27 M     1.10
+11   "int32_t do induction copy11"   1.88 sec   426.51 M     1.16
+12   "int32_t do induction copy12"   1.85 sec   431.43 M     1.15
+13   "int32_t do induction copy13"   1.83 sec   436.99 M     1.13
+14   "int32_t do induction copy14"   1.80 sec   444.58 M     1.11
+15   "int32_t do induction copy15"   1.86 sec   429.95 M     1.15
+16   "int32_t do induction copy16"   2.08 sec   385.19 M     1.29
+17   "int32_t do induction copy17"   1.92 sec   415.84 M     1.19
+18   "int32_t do induction copy18"   1.90 sec   421.86 M     1.17
+
+Total absolute time for do loop induction copy: 35.73 sec
+
+test                     description   absolute   operations   ratio with
+number                                 time       per second   test0
+
+ 0 "int32_t goto induction copy opt"   1.68 sec   476.14 M     1.00
+ 1    "int32_t goto induction copy1"   1.59 sec   504.04 M     0.94
+ 2    "int32_t goto induction copy2"   2.86 sec   279.86 M     1.70
+ 3    "int32_t goto induction copy3"   1.79 sec   447.78 M     1.06
+ 4    "int32_t goto induction copy4"   1.76 sec   455.83 M     1.04
+ 5    "int32_t goto induction copy5"   1.71 sec   466.74 M     1.02
+ 6    "int32_t goto induction copy6"   1.70 sec   471.27 M     1.01
+ 7    "int32_t goto induction copy7"   2.14 sec   374.56 M     1.27
+ 8    "int32_t goto induction copy8"   1.82 sec   439.36 M     1.08
+ 9    "int32_t goto induction copy9"   1.57 sec   510.65 M     0.93
+10   "int32_t goto induction copy10"   1.72 sec   466.47 M     1.02
+11   "int32_t goto induction copy11"   1.87 sec   428.29 M     1.11
+12   "int32_t goto induction copy12"   1.81 sec   442.13 M     1.08
+13   "int32_t goto induction copy13"   1.65 sec   484.47 M     0.98
+14   "int32_t goto induction copy14"   1.75 sec   457.20 M     1.04
+15   "int32_t goto induction copy15"   1.82 sec   438.58 M     1.09
+16   "int32_t goto induction copy16"   2.04 sec   391.82 M     1.22
+17   "int32_t goto induction copy17"   2.32 sec   344.73 M     1.38
+18   "int32_t goto induction copy18"   1.79 sec   445.77 M     1.07
+
+Total absolute time for goto loop induction copy: 35.38 sec
+
+test                         description   absolute   operations   ratio with
+number                                     time       per second   test0
+
+ 0 "int32_t for induction copyrange opt"   1.63 sec   491.86 M     1.00
+ 1    "int32_t for induction copyrange1"   1.81 sec   441.99 M     1.11
+ 2    "int32_t for induction copyrange2"   1.82 sec   439.56 M     1.12
+ 3    "int32_t for induction copyrange3"   2.00 sec   400.64 M     1.23
+ 4    "int32_t for induction copyrange4"   1.92 sec   416.24 M     1.18
+ 5    "int32_t for induction copyrange5"   2.13 sec   375.41 M     1.31
+ 6    "int32_t for induction copyrange6"   1.81 sec   442.53 M     1.11
+ 7    "int32_t for induction copyrange7"   1.92 sec   417.07 M     1.18
+ 8    "int32_t for induction copyrange8"   1.85 sec   431.90 M     1.14
+
+Total absolute time for for loop induction copyrange: 16.88 sec
+
+test                            description   absolute   operations   ratio with
+number                                        time       per second   test0
+
+ 0 "int32_t for induction copy opt verify1"   1.64 sec   488.24 M     1.00
+ 1     "int32_t for induction copy unused1"   2.27 sec   352.68 M     1.38
+ 2     "int32_t for induction copy unused2"   2.81 sec   284.73 M     1.71
+ 3     "int32_t for induction copy unused3"   2.27 sec   352.58 M     1.38
+ 4     "int32_t for induction copy unused4"   2.80 sec   285.38 M     1.71
+ 5     "int32_t for induction copy unused5"   5.12 sec   156.38 M     3.12
+ 6     "int32_t for induction copy unused6"   7.57 sec   105.73 M     4.62
+ 7     "int32_t for induction copy unused7"   2.27 sec   352.43 M     1.39
+
+Total absolute time for for loop unused induction copy: 26.74 sec
+
+test                            description   absolute   operations   ratio with
+number                                        time       per second   test0
+
+ 0 "int32_t for induction copy opt verify2"   1.64 sec   488.15 M     1.00
+ 1     "int32_t for induction copy reduce1"   1.87 sec   426.77 M     1.14
+ 2     "int32_t for induction copy reduce2"   1.91 sec   418.67 M     1.17
+ 3     "int32_t for induction copy reduce3"   1.88 sec   426.56 M     1.14
+ 4     "int32_t for induction copy reduce4"   1.91 sec   418.81 M     1.17
+ 5     "int32_t for induction copy reduce5"   1.91 sec   418.38 M     1.17
+ 6     "int32_t for induction copy reduce6"   1.90 sec   420.16 M     1.16
+ 7     "int32_t for induction copy reduce7"   1.96 sec   407.75 M     1.20
+ 8     "int32_t for induction copy reduce8"   2.26 sec   353.91 M     1.38
+
+Total absolute time for for loop reduce induction copy: 17.25 sec
+2023年 10月 31日 星期二 00:25:42 CST
+##END Version 1.0
